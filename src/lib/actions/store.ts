@@ -17,7 +17,6 @@ import {
   updateStoreSchema,
   type CreateStoreSchema,
 } from "@/lib/validations/store";
-import { join } from "path";
 import { joinNewsletter } from "./notification";
 import { getUserEmail } from "@/lib/utils";
 import { getCachedUser } from "../queries/user";

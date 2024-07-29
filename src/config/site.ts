@@ -4,7 +4,7 @@ export type SiteConfig = typeof siteConfig;
 
 const links = {
   github: "https://github.com/Mamenzul",
-  githubAccount: "https://github.com/Mamenzul",
+  githubAccount: "https://github.com/Mamenzul/porfolio-cuistoloco",
 };
 
 export const siteConfig = {
@@ -16,31 +16,6 @@ export const siteConfig = {
   links,
   mainNav: [] satisfies MainNavItem[],
   footerNav: [
-    {
-      title: "Aide",
-      items: [
-        {
-          title: "A propos",
-          href: "/about",
-          external: false,
-        },
-        {
-          title: "Contact",
-          href: "/contact",
-          external: false,
-        },
-        {
-          title: "Termes",
-          href: "/terms",
-          external: false,
-        },
-        {
-          title: "Confidentialité",
-          href: "/privacy",
-          external: false,
-        },
-      ],
-    },
     {
       title: "Social",
       items: [
